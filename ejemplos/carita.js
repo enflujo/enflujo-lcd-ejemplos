@@ -14,7 +14,7 @@ async function inicio() {
 
 async function animar() {
   // Imprimir caraNeutra que esta en posición 0 de los caracteres especiales.
-  // Los numeros equivalen a la posición: fila 1, columna 8.
+  // Los números equivalen a la posición: fila 1, columna 8.
   await lcd.imprimir(lcd.obtenerCaracter(0), 1, 8);
   // Esperar 1 segundo.
   await esperar(1000);
